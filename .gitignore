@@ -1,0 +1,23 @@
+@"
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Java compiled files
+*.class
+build/
+target/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+*.iml
+
+# Logs
+*.log
+"@ | Set-Content .gitignore
